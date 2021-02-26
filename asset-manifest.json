@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/arathvelazquez.github.io/static/css/main.3ea589b0.chunk.css",
+    "main.js": "/arathvelazquez.github.io/static/js/main.1a7b5bbc.chunk.js",
+    "main.js.map": "/arathvelazquez.github.io/static/js/main.1a7b5bbc.chunk.js.map",
+    "runtime-main.js": "/arathvelazquez.github.io/static/js/runtime-main.4a1d9f00.js",
+    "runtime-main.js.map": "/arathvelazquez.github.io/static/js/runtime-main.4a1d9f00.js.map",
+    "static/js/2.03df4819.chunk.js": "/arathvelazquez.github.io/static/js/2.03df4819.chunk.js",
+    "static/js/2.03df4819.chunk.js.map": "/arathvelazquez.github.io/static/js/2.03df4819.chunk.js.map",
+    "static/js/3.36b07752.chunk.js": "/arathvelazquez.github.io/static/js/3.36b07752.chunk.js",
+    "static/js/3.36b07752.chunk.js.map": "/arathvelazquez.github.io/static/js/3.36b07752.chunk.js.map",
+    "index.html": "/arathvelazquez.github.io/index.html",
+    "static/css/main.3ea589b0.chunk.css.map": "/arathvelazquez.github.io/static/css/main.3ea589b0.chunk.css.map",
+    "static/js/2.03df4819.chunk.js.LICENSE.txt": "/arathvelazquez.github.io/static/js/2.03df4819.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a1d9f00.js",
+    "static/js/2.03df4819.chunk.js",
+    "static/css/main.3ea589b0.chunk.css",
+    "static/js/main.1a7b5bbc.chunk.js"
+  ]
+}
