@@ -1,23 +1,39 @@
-import logo from './logo.svg';
+import Header from './content/Header';
+import Footer from './content/Footer';
+import Title from './components/Title';
+import Stack from './content/Stack';
+import SubMenu from './components/SubMenu';
+import Experience from './content/Experience'
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
 import './App.css';
+
+library.add(fab)
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen w-full">
+      <Header />
+
+      <Title section="about" title="What I Can Do" subtitle="About" />
+
+      <div>
+        <div className="m-auto w-10/12">
+          <h3 className="uppercase text-2xl font-extrabold mb-3">I develop digital projects</h3>
+          <p className="text-sm justify-center mb-3">
+            Software developer with bachelor's degree in Computer Science. Strong background in Node.js, MongoDB, AWS infrastructure and FrontEnd technologies. About 12 years of experience in IT area and in last 6 years I have been focused on Web development. Recently, I've been working in Ecommerce projects and mainly creating first class APIs with MEAN stack and AWS infrastructure.
+          </p>
+          <Stack />    
+        </div>
+      </div>
+      
+      <Title section="experience" title="What I've Done" subtitle="Experience" />
+      {/* <SubMenu /> */}
+      <Experience />
+      {/* <Title section="contact" title="Get in Touch" subtitle="Contact" /> */}
+      <Footer />
     </div>
   );
 }
